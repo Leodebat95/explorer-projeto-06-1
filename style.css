@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+
+
+/* --------------- Body ----------------------------- */
+body {
+  background-image: url("Assets/mountains-1.png");
+  height: 100vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.bkg-home {
+  background-image: url("Assets/mountains-1.png");
+  height: 100vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.bkg-uni {
+  background-image: url("Assets/mountains-2.png");
+  height: 100vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.bkg-exp {
+  background-image: url("Assets/mountains-3.png");
+  height: 100vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+  gap: 5rem;
+  padding: 4.5rem 0 0 7.2rem;
+}
+
+a {
+  font-size: 2.3rem;
+  color: #C4C4CC;
+  font-weight: normal;
+  line-height: 2.1rem;
+
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:nth-child(n+2):hover, 
+a:nth-child(n+2):focus {
+  color: #FFFFFF;
+  font-weight: 600;
+  transform: scale(1.05);
+
+  cursor: pointer;
+}
+
+#logo {
+  margin-right: -1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+.page-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.2rem;
+  margin-top: 18rem;
+}
+
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #C4C4CC;
+
+  gap: 2.2rem;
+  margin-top: 20rem;
+}
+
+.page-uni, 
+.page-exp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 2.2rem;
+  margin: 11rem 0 0 11rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #E1E1E6;
+  font-weight: 700;
+  line-height: 6rem;
+
+  cursor: default;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 3.1rem;
+  font-weight: 400;
+  color: #C4C4CC;
+
+  max-width: 65rem;
+}
+
+button {
+  background-color: hsla(0, 0%, 100%, 0);
+  height: 4.8rem;
+  width: 19.5rem;
+  padding: 1.2rem 2.4rem;
+
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 6px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.35s ease-in-out;
+}
+
+button:hover, 
+button:focus {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: #02799D;
+  
+  cursor: pointer;
+}
