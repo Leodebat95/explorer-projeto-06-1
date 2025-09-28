@@ -4,6 +4,10 @@ Exercício #1 da semana #6, de nome "SPA Universe". Parte do curso "Explorer", d
 
 Este exercício é focado no estudo das linguagens HTML, CSS e JavaScript, introduzindo os conceitos de SPA, JS assíncrono e promessas.
 
+<br>
+  <img width="406" height="235" alt="Mockup - Desktop" src="https://github.com/user-attachments/assets/f292f374-274e-4953-a7e6-de415f05d3ed" />
+<br>
+
 # Exercise - HTML / CSS & JS - SPA
 
 Exercise #1 from Week #6, named "SPA Universe". Part of the program "Explorer", from the online platform [Rocketseat](https://rocketseat.com.br/).
